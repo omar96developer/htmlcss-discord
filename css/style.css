@@ -45,8 +45,17 @@ a {
     
 }
 
-.section-container {
-    
+.section_one, .section_two, .section_three, .section_four {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.section_floatleft {
+    float:left;
+}
+.Height_box {
+    height: 400px;
 }
 /* fine utilities */
 
@@ -111,4 +120,18 @@ a {
     background-color: black;
     color: white;
     margin-left: 20px;
+}
+
+.section_container {
+    padding: 100px 0;
+}
+
+
+.section-text h2 {
+    font-size: 40px;
+    margin:30px;
+}
+   
+.object {
+    object-fit: cover;
 }
