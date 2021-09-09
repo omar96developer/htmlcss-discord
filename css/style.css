@@ -43,11 +43,23 @@ p {
     display: table;
     clear: both;
 }
+.section_one, .section_two, .section_three {
+    height: 100vh;
+    width: 100%;
+
+}
+
 .container {
     width: 1200px;
     height: 100vh;
     margin: auto;
 }
+
+.container_two {
+    width: 1200px;
+    margin: auto;
+}
+
 .logo, .navigation, .login {
     float: left;
     padding: 20px;
@@ -55,11 +67,6 @@ p {
     
 }
 
-.section_one, .section_two, .section_three, .section_four {
-    height: 100vh;
-    width: 100%;
-
-}
 
 .section_floatleft {
     float:left;
@@ -149,6 +156,27 @@ p {
     text-align: center
 }
 
+.four_img {
+    position: relative;
+    left: 163px;
+}
+
 .link-mac-two {
-    color: black;
+    color: white;
+    background-color: #8ea1e1;
+}
+
+.section_four_link {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: top;
+    margin: auto;
+    text-align: center;
+}
+
+.section_four_link h3 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px ;
+    
 }
