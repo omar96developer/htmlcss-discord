@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100vh;  
+}
+
+a {
+    display: inline-block
+}
+
+/* UTILITIES */
+.una-colonna {
+    width: calc(1200px / 6);
+}
+
+.due-colonna {
+    width: calc(1200px / 6 * 2);
+}
+
+.quattro-colonna {
+    width: calc(1200px / 6 * 4);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: auto;
+}
+.logo, .navigation, .login {
+    float: left;
+    padding: 20px;
+    height: 80px;
+    
+}
+
+.section-container {
+    
+}
+/* fine utilities */
+
+
+
+
+
+
+.navigation_ul {
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login {
+    text-align: right;
+}
+.login a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius:20px; 
+    color: black;
+}
+
+.header_section {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+}
+.header_section h1, .header_section p {
+    margin-bottom: 30px;
+}
+
+.header_section h1{
+    font-size: 50px;
+}
+
+.link-mac, .link-mac-two, .link-browser {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:20px;
+    padding: 10px 25px;
+}
+    
+.link-mac {
+    background-color: white;
+    color: black;
+}
+
+.link-browser {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
