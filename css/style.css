@@ -67,6 +67,10 @@ p {
 .Height_box {
     height: 400px;
 }
+.section_two, .section_four {
+    background-color: rgba(246,246,246,255)
+    ;
+}
 /* fine utilities */
 
 
@@ -137,8 +141,14 @@ p {
     padding: 100px 0;
 }
 
+.img_right {
+    margin-left: 183px;
+}
 
-   
-.object {
-    object-fit: cover;
+.section_text_four {
+    text-align: center
+}
+
+.link-mac-two {
+    color: black;
 }
