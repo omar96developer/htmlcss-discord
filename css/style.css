@@ -25,6 +25,13 @@ p {
     font-weight: 600;
     line-height: 30px;
 }
+footer {
+    background-color: rgba(35,39,42,255);
+    height: 100vh;
+}
+ul {
+    list-style-type: none;
+}
 /* UTILITIES */
 .una-colonna {
     width: calc(1200px / 6);
@@ -99,10 +106,10 @@ p {
     text-decoration: none;
     font-weight: bold;
 }
-.login {
+.login .registrati {
     text-align: right;
 }
-.login a {
+.login a, .registrati a {
     text-decoration: none;
     font-weight: bold;
     background-color: white;
@@ -144,7 +151,7 @@ p {
     margin-left: 20px;
 }
 
-.section_container {
+.section_container, .footer_container {
     padding: 100px 0;
 }
 
@@ -179,4 +186,62 @@ p {
     font-weight: 800;
     margin-bottom: 20px ;
     
+}
+.footer_container, .footer_container_two {
+        width: 1200px;
+        margin: auto;
+    
+}
+
+.footer_container h3, h5 { 
+    color: #8ea1e1 ;
+}
+
+.footer_container h3 {
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.footer_container h5 {
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.iltuo{
+    margin-top: 40px;
+}
+.ita {
+    height: 20px;
+}
+.footer_span {
+    color: white;
+    vertical-align: top;
+    
+}
+.fas {
+    vertical-align: bottom;
+}
+.fab {
+    color: white;
+    margin: 20px 20px 0 0;
+}
+
+.footer_container a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+.footer_container_two {
+    border-top: 1px solid #8ea1e1;
+    padding-top: 40px;
+    
+}
+.registrati {
+    float: right;
+    
+}
+.registrati a {
+    background-color: #8ea1e1;
+    color: white
 }
